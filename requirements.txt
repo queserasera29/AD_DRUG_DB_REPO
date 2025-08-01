@@ -1,9 +1,6 @@
 streamlit
 pandas
-rdkit-pypi
-matplotlib
 Pillow
-reportlab
-git add requirements.txt
-git commit -m "Updated requirements for Streamlit + RDKit compatibility"
+git add app.py requirements.txt
+git commit -m "Minimal working version using PubChem images"
 git push
