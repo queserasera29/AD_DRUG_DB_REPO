@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import requests
 from st_aggrid import AgGrid, GridOptionsBuilder
+from rdkit import Chem
+from rdkit.Chem import Draw
 
 @st.cache_data
 def load_data():
