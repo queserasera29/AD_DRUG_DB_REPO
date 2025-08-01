@@ -6,7 +6,7 @@ def load_data():
     return pd.read_csv("PubChem_compound_text_antidepressant drugs.csv").fillna("N/A")
 
 df = load_data()
-st.write("CSV Columns:", df.columns.tolist())
+
 st.set_page_config(page_title="Antidepressant Drug Info", layout="wide")
 st.title("Antidepressant Drug Information Portal")
 
