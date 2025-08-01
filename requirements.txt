@@ -1,5 +1,5 @@
 streamlit
 pandas
+rdkit-pypi
 pillow
-rdkit
-st-aggrid
+st-aggrid==0.3.4
