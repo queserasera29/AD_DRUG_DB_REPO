@@ -4,3 +4,6 @@ rdkit-pypi
 matplotlib
 Pillow
 reportlab
+git add requirements.txt
+git commit -m "Updated requirements for Streamlit + RDKit compatibility"
+git push
