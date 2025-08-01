@@ -1,4 +1,6 @@
 streamlit
 pandas
 rdkit-pypi
+matplotlib
 Pillow
+reportlab
