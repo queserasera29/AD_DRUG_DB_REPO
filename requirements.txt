@@ -1,3 +1,5 @@
 streamlit
 pandas
-rdkit-pypi
+pillow
+rdkit
+
