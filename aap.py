@@ -11,7 +11,7 @@ st.set_page_config(page_title="Antidepressant Drug Info", layout="wide")
 st.title("Antidepressant Drug Information Portal")
 
 query = st.text_input("Enter Drug Name or Synonym")
-selected = st.selectbox("Filter by Drug Class", options=["All"] + sorted(df["Drug_Class"].unique()))
+selected = st.selectbox("Filter by Drug Class", options=["All"] + sorted(df["Name"].unique()))
 
 if st.button("Search"):
     filtered = df[df["Name"].str.contains(query, case=False, na=False) |
